@@ -22,14 +22,14 @@
  }
 
  .top_heading {
-   height: 65%;
-   width: 100%;
+  height: 20%;
+  width: 100%;
    background-color: green;
  }
 
  .sub_top_heading {
-   height: 20%;
-   width: 100%;
+  height: 65%;
+  width: 100%;
    background-color: rgb(66, 255, 66);
  }
 
