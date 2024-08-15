@@ -17,11 +17,10 @@
 
  .top_bar {
   width: 100%;
-  height: 180px;
-  background-color: aqua;
+  height: 226px;
 }
 
-/* ----------contact bar---------- */
+/* --------------------contact bar-------------------- */
 
  .top_heading {
   display: flex;
@@ -105,24 +104,34 @@
   margin-top: 3px;
  }
 
- /* ----------Logo and name---------- */
+ /* --------------------Logo and name-------------------- */
 
  .sub_top_heading {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 145px;
+  flex-direction: column;
+  height: 191px;
   width: 100%;
-  background: linear-gradient(90deg, rgba(235,226,226,1) 0%, rgba(255,255,255,1) 50%, rgba(235,226,226,1) 100%); }
+  position: relative;
+  }
+
+  .banner_cover {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
  .logo_and_name {
   display: flex;
   align-items: center;
-  height: 100%;
-  width: 85%;
+  height: 143px;
+  width: 97.5%;
   }
 
- /* ---school logo--- */
+ /* ------school logo------ */
  .school_logo {
   display: flex;
   justify-content: center;
@@ -172,12 +181,96 @@
   height: 25px;
   font-size: 20px;
  }
+  /* ----------news ticker---------- */
+  .news_box {
+    width: 95%;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+}
 
- /* --------------------news ticker-------------------- */
+.news_title {
+    height: 100%;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(254,163,31,1) 44%, rgba(255,196,110,1) 100%);
+    font-size: 21px;
+    font-weight: 570;
+    border-radius: 7px 0 0 7px;
+    color: #982b31;
+}
+
+.news_container {
+    background-color: #fff;
+    height: 100%;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    overflow: hidden;
+    border-radius: 0 7px 7px 0;
+    border: 2px solid #e2e2e2;
+    border-left: none;
+
+
+}
+
+.news_container ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    white-space: nowrap;
+    animation: notice 25s infinite linear;
+
+}
+
+.news_container ul li {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+
+.news_container ul li a {
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 530;
+    color: #982b31;
+
+}
+
+.news_container ul li::after{
+    content: "";
+    height: 60%;
+    width: 2px;
+    margin: 0 15px;
+    background-color: rgba(0, 0, 0, 0.511);
+}
+
+.news_container ul li:last-child::after{
+    display: none;
+}
+
+/* ---animation--- */
+
+@keyframes notice {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-215%);
+    }
+  }
  
  
 
- /* navigation bar */
+  /* --------------------navigation bar-------------------- */
 
  .navbar {
    height: 42px;
