@@ -114,11 +114,16 @@
   height: 191px;
   width: 100%;
   position: relative;
-  }
+  background: rgb(254,163,31);
+  background: -moz-linear-gradient(61deg, rgba(254,163,31,1) 0%, rgba(255,255,255,0.1292892156862745) 30%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 70%, rgba(254,163,31,1) 100%);
+  background: -webkit-linear-gradient(61deg, rgba(254,163,31,1) 0%, rgba(255,255,255,0.1292892156862745) 30%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 70%, rgba(254,163,31,1) 100%);
+  background: linear-gradient(61deg, rgba(254,163,31,1) 0%, rgba(255,255,255,0.1292892156862745) 30%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 70%, rgba(254,163,31,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fea31f",endColorstr="#fea31f",GradientType=1);
+ }
 
   .banner_cover {
     height: 100%;
-    width: 90%;
+    width: 86%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -128,7 +133,7 @@
   display: flex;
   align-items: center;
   height: 143px;
-  width: 97.5%;
+  width: 100%;
   }
 
  /* ------school logo------ */
@@ -138,18 +143,22 @@
   align-items: center;
   height: 130px;
   width: 160px;
-  margin-left: 15px;
   background-size: 150px;
   background-color: #fff;
   background-repeat: no-repeat;
   border-radius: 15px;
-  box-shadow: 5px 5px 40px #00000029;
+  box-shadow: 0px 0px 40px #ffffff;
+  border: 2px solid #e2e2e2;
  }
 
  .school_logo a img {
   margin-top: 3px;
-  height: 118px;
-  
+  height: 118px;  
+  transition: 1s ease-in-out;
+ }
+
+ .school_logo a img:hover {
+  scale: 1.17;
  }
 
  /* ---school Nmae--- */
@@ -167,7 +176,7 @@
   word-spacing: 7px;
   font-weight: 550;
   color: #fea31f;
-  text-shadow: 5px 5px 50px #00000054;
+  text-shadow: 0px 0px 50px #ffffff;
  }
 
  .institute_name {
@@ -183,11 +192,12 @@
  }
   /* ----------news ticker---------- */
   .news_box {
-    width: 95%;
+    width: 100%;
     height: 42px;
     display: flex;
     align-items: center;
     border-radius: 7px;
+    box-shadow: 0px 0px 45px #fff;
 }
 
 .news_title {
@@ -278,6 +288,7 @@
    background-color: #fea31f;
    display: flex;
    justify-content: center;
+   position: sticky;
  }
 
  .navbar ul {
