@@ -3,6 +3,7 @@
    padding: 0;
    box-sizing: border-box;
    font-family: sans-serif, Arial, Helvetica;
+   list-style-type: none;
  }
 
 
@@ -153,7 +154,7 @@
  .school_logo a img {
   margin-top: 3px;
   height: 118px;  
-  transition: 1s ease-in-out;
+  transition: 0.7s ease-in-out;
  }
 
  .school_logo a img:hover {
@@ -325,7 +326,7 @@
    align-items: center;
    height: 100%;
    width: 100%;
-   color: #fff;
+   color: #982b31;
    text-decoration: none;
    font-size: 13px;
    padding-left: 15px ;
