@@ -66,8 +66,7 @@
 }
 .address_box1 p {
     margin-top: 10px;
-    font-weight: 600;
-    color: #9b4a4e;
+    color: #982b31;
 }
 
 
@@ -194,7 +193,7 @@
 
 .fbox2 a, .fbox3 a, .fbox4 a {
     text-decoration: none;
-    color: #9b4a4e;
+    color: #982b31;
     font-weight: 500;
     margin-bottom: 5px;
     transition: 0.2s ease-in;
