@@ -151,13 +151,13 @@
   border: 2px solid #e2e2e2;
  }
 
- .school_logo a img {
+.hero_logo {
   margin-top: 3px;
   height: 118px;  
   transition: 0.7s ease-in-out;
  }
 
- .school_logo a img:hover {
+.hero_logo:hover {
   scale: 1.17;
  }
 
@@ -190,7 +190,7 @@
   height: 25px;
   font-size: 20px;
  }
-  /* ----------news ticker---------- */
+  /* --------------------news ticker-------------------- */
   .news_box {
     width: 100%;
     height: 42px;
@@ -266,7 +266,7 @@
     display: none;
 }
 
-/* ---animation--- */
+/* --------------------animation-------------------- */
 
 @keyframes notice {
     from {
@@ -338,7 +338,7 @@
    scale: 1.2;
  }
 
- /* navbar dropdown's */
+ /* --------------------navbar dropdown's-------------------- */
 
  .dropdown {
    position: absolute;
@@ -368,7 +368,7 @@
  }
  
 
- /* dropdown box 1 */
+ /* ----------dropdown box 1---------- */
 
  .box1 {
    height: 257px;
@@ -381,7 +381,7 @@
    display: flex;
  }
 
- /* dropdown box 2 */
+ /* ----------dropdown box 2---------- */
 
  .box2 {
    height: 217px;
@@ -394,7 +394,7 @@
    display: flex;
  }
 
-  /* dropdown box 3 */
+  /* ----------dropdown box 3---------- */
 
   .box3 {
    height: 177px;
@@ -407,7 +407,7 @@
    display: flex;
  }
 
- /* dropdown box 4 */
+ /* ----------dropdown box 4---------- */
 
  .box4 {
    height: 217px;
@@ -420,7 +420,7 @@
    display: flex;
  }
 
- /* dropdown box 5 */
+ /* ----------dropdown box 5---------- */
 
  .box5 {
    height: 97px;
@@ -433,7 +433,7 @@
    display: flex;
  }
 
-  /* dropdown box 6 */
+  /* ----------dropdown box 6---------- */
 
   .box6 {
    height: 337px;
@@ -446,7 +446,7 @@
    display: flex;
  }
 
-  /* dropdown box 7 */
+  /* ----------dropdown box 7---------- */
 
   .box7 {
    height: 337px;
@@ -459,7 +459,7 @@
    display: flex;
  }
 
- /* dropdown box 8 */
+ /* ----------dropdown box 8---------- */
 
  .box8 {
    height: 57px;
@@ -472,7 +472,7 @@
    display: flex;
  }
 
- /* dropdown box 9 */
+ /* ----------dropdown box 9---------- */
 
  .box9 {
    height: 97px;

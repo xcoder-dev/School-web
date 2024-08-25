@@ -1,5 +1,5 @@
 .body_cnt {
-    height: 400px;
+    height: 800px;
     width: 100%;
 }
 
@@ -23,7 +23,7 @@
 
 }
 
-/* ----------location box---------- */
+/* --------------------location box-------------------- */
 
 .foot_location {
     height: 120px;
@@ -78,7 +78,7 @@
     align-items: center;
 }
 
-/* ----------footer box---------- */
+/* --------------------footer box-------------------- */
 
 .footer_box {
     height: 340px;
