@@ -3,12 +3,17 @@
     font-family: system-ui, sans-serif;
     font-size: 1rem;
     line-height: 1.7;
-    color: #07071d;
-    background-color: #ffffff;
     padding: 3rem 6rem;
     width: 100%;
     margin-inline: auto;
     text-align: center;
+  }
+
+  .admin_pannel h2 {
+    margin-top: -20px;
+    margin-bottom: 20px;
+    font-size: 27px;
+    color: #982b31;
   }
   
   

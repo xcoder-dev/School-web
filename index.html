@@ -11,14 +11,17 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="admin_pannel_gallery.css">
+    <link rel="stylesheet" href="top_contact_&_hero.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="Image slider/image_slider.css">
     <title>S. K. Residential School</title>
 </head>
 <body>
     <div class="full_frame">
 
-        <div class="top_bar">
-            <div class="top_heading">
+        <div class="contact_and_hero">
+            <div class="contact_bar_box">
 
                 <div class="media_links">
                     <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
@@ -47,7 +50,7 @@
                 </div>
 
             </div>
-            <div class="sub_top_heading">
+            <div class="hero_box">
                 <div class="banner_cover">
                     <div class="logo_and_name">
 
@@ -175,7 +178,7 @@
                         </ul>
                     </div>
                 </li>
-                <li class="gallery"><a href="#">Gallery &nbsp;<ion-icon name="caret-down-outline"></ion-icon></a>
+                <li class="image_vault"><a href="#">Gallery &nbsp;<ion-icon name="caret-down-outline"></ion-icon></a>
                     <div class="dropdown box9">
                         <ul>
                             <li><a href="#">Photo Gallery</a></li>
@@ -188,8 +191,51 @@
         </div>
 
         <div class="body_cnt">
+            <div class="slider_cover">
+                <div class="slider_school_img">
+                        <!-- Wrapper -->
+                    <div class="wrapper">
+                        <!-- Images Area -->
+                        <div class="images-area">
+                            <img src="https://d.top4top.io/p_1933b0jx81.jpg" alt="image" class="firstImage">
+                            <img src="https://e.top4top.io/p_1933fqrzh2.jpg" alt="image">
+                            <img src="https://f.top4top.io/p_1933gojsk3.jpg" alt="image">
+                            <img src="https://g.top4top.io/p_1933as3zx4.jpg" alt="image">
+                            <img src="https://h.top4top.io/p_1933upn9s5.jpg" alt="image">
+                            <img src="https://e.top4top.io/p_1933fqrzh2.jpg" alt="image">
+                            <img src="https://f.top4top.io/p_1933gojsk3.jpg" alt="image">
+                            <img src="https://g.top4top.io/p_1933as3zx4.jpg" alt="image">
+                            <img src="https://h.top4top.io/p_1933upn9s5.jpg" alt="image">
+                        </div>
+                        <!-- Buttons Area -->
+                        <div class="buttons-area">
+                            <div class="previous-btn">
+                                <i class='bx bx-chevron-left'></i>
+                            </div>
+                            <div class="next-btn">
+                              <i class='bx bx-chevron-right'></i>
+                            </div>
+                        </div>
+                        <!-- Pagination Area -->
+                        <div class="pagination-area">
+                        </div>
+                    </div>
+                    <!-- End Wrapper -->
+                
+                    <div class="img_slider_text">
+                        <h2>History</h2>
+                        <br>
+                        <p>It is a Non-government School. This institute's EIIN
+                             number is 134965. This institute is located in Newtown
+                              Rasidencial Aria, Sector #01, Block#a , Narayanganj,
+                               Dhaka Division. It's geographical area is Plain Land.
+                                It offers classes up to Junior Secondary level.</p>
+                    </div>
+                </div>
+            </div>
+            
             <div class="admin_pannel">
-
+                <h2>Teachers Admin Panel</h2>
                 <div class="gallery">
                     <div class="gallery-panel">
                       <img src="https://img.freepik.com/premium-photo/anime-boy-captivating-character-illustration_974154-1535.jpg" alt="Jane Doe" />
@@ -318,11 +364,12 @@
             </div>
         </div>
     </div>
-
+    <script src="Image slider/slider.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
     <script src="clock.js"></script>
+
 </body>
 </html>
