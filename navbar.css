@@ -4,7 +4,7 @@
 .navbar {
     height: 42px;
     width: 100%;
-    background-color: #fea31f;
+    background-color: var(--full-web-theam-color);
     display: flex;
     justify-content: center;
     position: sticky;
@@ -31,13 +31,13 @@
     justify-content: center;
     list-style-type: none;
     height: 100%;
-    border-right: 2px solid #ffbb54;
+    border-right: 2px solid var(--nav-border-color);
     transition: 0.3s ease-in-out;
   }
  
  
   .navbar ul li:hover {
-    background-color: #ffb951;
+    background-color: var(--nav-border-color);
   }
  
   .navbar ul li a {
@@ -46,7 +46,7 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    color: #982b31;
+    color: var(--full-web-most-txt-color);
     text-decoration: none;
     font-size: 13px;
     padding-left: 15px ;
@@ -66,7 +66,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 0 0 15px 15px;
-    background-color: #fea31f;
+    background-color: var(--full-web-theam-color);
     box-shadow: 3px 3px 50px rgba(0, 0, 0, 0.322);
  
   }

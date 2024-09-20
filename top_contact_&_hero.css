@@ -11,7 +11,7 @@
     justify-content: space-between;
     height: 35px;
     width: 100%;
-    background-color: #fea31f;
+    background-color: var(--full-web-theam-color);
    }
   
    /* social media links */
@@ -97,11 +97,11 @@
     height: 191px;
     width: 100%;
     position: relative;
-    background: rgb(254,163,31);
-    background: -moz-linear-gradient(61deg, rgba(254,163,31,1) 0%, rgba(255,255,255,0.1292892156862745) 30%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 70%, rgba(254,163,31,1) 100%);
-    background: -webkit-linear-gradient(61deg, rgba(254,163,31,1) 0%, rgba(255,255,255,0.1292892156862745) 30%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 70%, rgba(254,163,31,1) 100%);
-    background: linear-gradient(61deg, rgba(254,163,31,1) 0%, rgba(255,255,255,0.1292892156862745) 30%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 70%, rgba(254,163,31,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fea31f",endColorstr="#fea31f",GradientType=1);
+    background: rgb(1,160,229);
+    background: -moz-linear-gradient(61deg, rgba(1,160,229,1) 0%, rgba(255,255,255,0.1292892156862745) 30%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 70%, rgba(1,160,229,1) 100%);
+    background: -webkit-linear-gradient(61deg, rgba(1,160,229,1) 0%, rgba(255,255,255,0.1292892156862745) 30%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 70%, rgba(1,160,229,1) 100%);
+    background: linear-gradient(61deg, rgba(1,160,229,1) 0%, rgba(255,255,255,0.1292892156862745) 30%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 70%, rgba(1,160,229,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#01a0e5",endColorstr="#01a0e5",GradientType=1);
    }
   
     .banner_cover {
@@ -155,10 +155,10 @@
    .institute {
     display: flex;
     align-items: center;
-    width: 500px;
+    width: 850px;
     word-spacing: 7px;
     font-weight: 550;
-    color: #fea31f;
+    color: var(--full-web-theam-color);
     text-shadow: 0px 0px 50px #ffffff;
    }
   
@@ -170,8 +170,18 @@
   
    .institute_name_subtitle {
     margin: 8px 0 0 25px;
-    height: 25px;
+
+    height: 70px;
+    width: 250px;
     font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+   }
+
+   .institute_name_subtitle p:last-child {
+    margin-top: 5px;
    }
     /* --------------------news ticker-------------------- */
     .news_box {
@@ -189,11 +199,13 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background: linear-gradient(90deg, rgba(254,163,31,1) 44%, rgba(255,196,110,1) 100%);
+      background: rgb(0,98,174);
+      background: linear-gradient(90deg, rgba(0,98,174,1) 31%, rgba(3,161,224,1) 100%);
       font-size: 21px;
       font-weight: 570;
       border-radius: 7px 0 0 7px;
-      color: #982b31;
+      color: var(--full-web-most-txt-color);
+      text-shadow: 0 0 50px #000000d3;
   }
   
   .news_container {
@@ -233,7 +245,7 @@
       text-decoration: none;
       font-size: 19px;
       font-weight: 530;
-      color: #982b31;
+      color: var(--full-web-most-txt-color);
   
   }
   

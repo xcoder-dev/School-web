@@ -1,9 +1,16 @@
+ :root {
+  --full-web-theam-color: #0061ac;
+  --full-web-most-txt-color: #00a4e5;
+  --nav-border-color: #00a4e573;
+ } 
+ 
  * {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
    font-family: sans-serif, Arial, Helvetica;
    list-style-type: none;
+
  }
 
 

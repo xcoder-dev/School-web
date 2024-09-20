@@ -1,8 +1,8 @@
 :root {
-  --full-box: #250002d8;
+  --full-box: #0062ace3;
   --table-heading-txt: #fff;
-  --result-summery-navbar-bg: #fea51f96;
-  --result-summery-navbar-hover: #fea31f;
+  --result-summery-navbar-bg: #004a8398;
+  --result-summery-navbar-hover: #003c69;
   --result-summery-navbar-txt: #ffffff;
   --result-summery-results-table-txt: #fff;
   --result-summery-more-border: #fff;
@@ -156,4 +156,8 @@
     box-shadow: 0 0 10px 0 #ffffff inset, 0 0 20px 2px #ffffff;
     border: 3px solid #ffffff;
   }
+}
+
+th, td {
+  border-color: #ffffff;
 }

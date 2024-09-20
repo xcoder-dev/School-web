@@ -4,7 +4,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        color: #982b31;
+        color: var(--full-web-most-txt-color);
         /* background-color: red; */
     }
 
@@ -18,12 +18,12 @@
 
     .event_card_cnt_name p {
         font-size: 20px;
-        color: #982b31;
+        color: var(--full-web-most-txt-color);
     }
 
     .event_card_cnt_name span {
         padding: 5px 0;
-        border-bottom: 3px solid #fea31f;
+        border-bottom: 3px solid var(--full-web-theam-color);
     }
 
     .event_card_cnt_heading {
@@ -44,7 +44,7 @@
 
     .event_card_cnt_card_1 {
         height: 95%;
-        max-width: 350px;
+        width: 350px;
         background: rgba( 255, 255, 255, 0.25 );
         backdrop-filter: blur( 4px );
         -webkit-backdrop-filter: blur( 4px );
@@ -96,17 +96,17 @@
         width: 50%;
         background-color: transparent;
         position: relative;
-        border: 2px solid #982b31;
+        border: 2px solid var(--full-web-most-txt-color);
         overflow: hidden;
         border-radius: 7px;
         display: flex;
         justify-content: center;
         align-items: center;
-        transition: all 0.5s;
-        color: #982b31;
+        transition: all 0.7s;
+        color: var(--full-web-most-txt-color);
 
         &:hover {
-            background-color: #ffb03a;
+            background-color: var(--full-web-theam-color);
             scale: 1.05;
         }
 
@@ -117,10 +117,10 @@
             left: -50px;
             width: 0;
             height: 100%;
-            background-color: #ffb03a;
+            background-color: var(--full-web-theam-color);
             transform: skewX(35deg);
             z-index: -99;
-            transition: width 0.5s ease;
+            transition: width 0.6s ease;
         }
 
         &:hover::before {
@@ -128,7 +128,69 @@
         }
     }
 
-    /* --------------------facilities Box-------------------- */
+    /* ------------------------------------------------------------Notic Card------------------------------------------------------------ */
+
+
+
+    .event_card_cnt_card_3_notice_card {
+        height: 50px;
+        width: 100%;
+        background-color: #0062acc5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .event_card_cnt_card_3_notice_card_all_notice {
+        height: 41.5px;
+        width: 100%;
+        margin-top: 9px;
+        display: flex;
+        justify-content: space;
+        align-items: center;
+    }
+
+    .event_card_cnt_card_3_notice_card_all_notice a{
+        padding: 0 10px;
+        color: var(--full-web-most-txt-color);
+        flex: 1;
+        background-color: #dbd9d7c7;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    .event_card_cnt_card_3_notice_card_all_notice_span {
+        height: 45px;
+        width: 45px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        border-bottom-left-radius: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow: hidden;
+        margin:  0 10px;
+    }
+
+    .notice_board_date {
+        text-align: center;
+        margin-top: 7px;
+        font-weight: 700;
+    }
+
+    .event_card_cnt_card_3_notice_card_all_notice span div {
+        width: 100%;
+        background-color: var(--full-web-most-txt-color);
+        text-align: center;
+        color: #fff;
+    }
+
+
+
+    /* ------------------------------------------------------------facilities Box------------------------------------------------------------ */
 
     .facilities_cnt_align {
         display: flex;
@@ -156,7 +218,7 @@
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        background-color: #fea51fc9;
+        background-color: #0062acd2;
     }
 
     .facilities_cnt_box1_sub {
@@ -164,14 +226,14 @@
         height: 65px;
         display: flex;
         align-items: center;
-        color: #982b31;
+        color: var(--full-web-most-txt-color);
 
     }
 
     .facilities_cnt_box1_sub h3 {
         font-size: 36px;
         font-weight: 500;
-        color: #982b31;
+        color: var(--full-web-most-txt-color);
     }
 
     .facilities_cnt_box1_sub span {

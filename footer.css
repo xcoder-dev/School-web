@@ -1,7 +1,7 @@
 .body_cnt {
   width: 100%;
   height: 3150px;
-  background-image: url(Logos/repeat-bg.jpg);
+  background-image: url(Logos/bg2.jpg);
   background-size: 500px;
 }
 
@@ -11,7 +11,7 @@
   align-items: end;
   height: 480px;
   width: 100%;
-  background-color: #fea31f;
+  background-color: var(--full-web-theam-color);
 }
 
 .result_iframe_cover {
@@ -30,7 +30,7 @@
 .foot-cnt {
   height: 480px;
   width: 100%;
-  background-color: #fea31f;
+  background-color: var(--full-web-theam-color);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,7 +42,7 @@
 .foot_location {
   height: 120px;
   width: 100%;
-  background-color: #fea31f;
+  background-color: var(--full-web-theam-color);
   display: flex;
   align-items: end;
   justify-content: center;
@@ -51,7 +51,7 @@
 .foot_address {
   height: 240px;
   width: 1050px;
-  background-color: #fea31f;
+  background-color: var(--full-web-theam-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,12 +75,12 @@
   flex-direction: column;
   justify-content: left;
   align-items: start;
-  color: #982b31;
+  color: var(--full-web-most-txt-color);
   text-shadow: 0px 0px 40px #00000019;
 }
 .address_box1 p {
   margin-top: 10px;
-  color: #982b31;
+  color: var(--full-web-most-txt-color);
 }
 
 .address_box2 {
@@ -145,10 +145,11 @@
   align-items: center;
   font-size: 1.35rem;
   font-weight: 535;
-  color: #982b31;
+  color: var(--full-web-most-txt-color);
   text-decoration: none;
   height: 30%;
 }
+
 
 .fbox1_subbox1 a img {
   height: 2.188rem;
@@ -156,7 +157,7 @@
   transition: 0.5s ease-in;
 }
 .fbox1_subbox1 a:hover {
-  color: #982b31 !important;
+  color: var(--full-web-most-txt-color) !important;
 }
 
 .fbox1_subbox1 a:hover img {
@@ -170,13 +171,13 @@
 }
 
 .fbox1_subbox2 h4 {
-  color: #982b31;
+  color: var(--full-web-most-txt-color);
 }
 
 .fbox1_subbox2 p {
   font-weight: 500;
   padding-top: 5px;
-  color: #982b31;
+  color: var(--full-web-most-txt-color);
 }
 
 /* box1 sub box3 */
@@ -189,7 +190,7 @@
 }
 
 .fbox1_subbox3 a {
-  color: #982b31;
+  color: var(--full-web-most-txt-color);
   transition: 0.2s ease-in;
 }
 
@@ -202,7 +203,7 @@
 .fbox3 h4,
 .fbox4 h4 {
   font-size: 18px;
-  color: #982b31;
+  color: var(--full-web-most-txt-color);
   margin-bottom: 7px;
 }
 
@@ -210,7 +211,7 @@
 .fbox3 a,
 .fbox4 a {
   text-decoration: none;
-  color: #982b31;
+  color: var(--full-web-most-txt-color);
   font-weight: 500;
   margin-bottom: 5px;
   transition: 0.2s ease-in;
@@ -227,11 +228,11 @@
 .credit {
   height: 40px;
   width: 100%;
-  background-color: #e59113;
+  background-color: #004880;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #982b31;
+  color: var(--full-web-most-txt-color);
 }
 
 .credit p,
@@ -241,7 +242,7 @@
 
 .credit a {
   text-decoration: none;
-  color: #982b31;
+  color: var(--full-web-most-txt-color);
   transition: 0.3s ease-in;
 }
 
